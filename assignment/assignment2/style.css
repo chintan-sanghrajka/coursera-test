@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+	padding: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+p {
+    background-color: chocolate;
+    width: 90%;
+    height: 150px;
+    border: 1px solid black;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#head1 {
+    text-align: center;
+    float: right;
+    width: 10%;
+    background-color: brown;
+    color: white;
+    margin-right: auto;
+}
+
+.row {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.box{
+  width: 100%;
+  overflow: none;
+}
+
+.name{
+    overflow: none;
+    text-align: center;
+    border: 4px solid black;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    float: right;
+    margin-right: 36px;
+    margin-top: 0px;
+    font-weight: bold;
+    position: relative;
+}
+
+.namec{
+  background-color: #FFB6C1;
+}
+
+.nameb{
+  color: white;
+  background-color: #FF0000;
+}
+.names{
+  background-color: #FFFF00;
+}
+
+
+.info{
+  border: 5px solid black;
+  width: 90%;
+  height: auto;
+  margin: 2.5%;
+  color: black
+  font-size: 25px;
+  padding: 2%;
+  padding-top: 55px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+
+@media (min-width: 992px){
+    .col-lg-1, .col-lg-2, .col-lg-3{
+        float: left;
+    }
+    .col-lg-1{
+        width: 33.33%;
+    }
+    .col-lg-2{
+        width: 33.33%
+    }
+    .col-lg-3{
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-1,.col-md-2,.col-md-3{
+        float: left;
+    }
+    .col-md-1{
+        width: 50%;
+    }
+    .col-md-2{
+        width: 50%;
+    }
+    .col-md-3{
+        width: auto;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 767px){
+    .col-s-1,.col-s-2,.col-s-3{
+        float: left;
+    }
+    .col-s-1{
+        width: 100%;
+    }
+    .col-s-2{
+        width: 100%;
+    }
+    .col-s-3{
+        width: 100%;
+    }
+}
+
